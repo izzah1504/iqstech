@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CONTACT US | IQS Tech Technology</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	
+	body{
+			background-image: url(images/cold.png); 
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		}
+
+	nav ul li a:hover{
+	background-color: skyblue;
+	color: #000;
+	transition: 0.5s ease;
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}	
+
+.title{
+	text-align: center;
+	margin: 0 auto 60px;
+	position: relative;
+	color: black;
+}
+.title::after{
+	content: ' ';
+	background: orangered;
+	width: 80px;
+	height: 3px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="images/log.png" width="150px"></a>
+		</div>
+		<nav>
+			<ul>
+				<li> <a href="index.html">Home</a></li>
+				<li> <a href="whatsnew.html">What's New</a></li>
+				<li> <a href="sales.html">Sales</a></li>
+				<li> <a href="catalogue.html">Catalogue</a></li>
+				<li> <a href="aboutus.html">About Us</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+
+			</ul>
+		</nav>
+		<img src="images/cart.png" width="30px" height="30px">
+		</div>
+	<div class="wrapper">
+	<div class="contact">
+
+		<div class="title" style="font-size: 40px; color: white;"> Contact Us Form <img src="images/giphy.gif" width="50px"></div>
+
+		<div class="input-fields">
+			<div class="items">
+				<label for="name" class="label">Name</label>
+				<input id="name" type="text" class="input">
+			</div>
+			<div class="items">
+				<label for="name" class="label">Email</label>
+				<input id="name" type="text" class="input">
+			</div>
+			<div class="items">
+				<label for="name" class="label">Subject</label>
+				<input id="name" type="text" class="input">
+			</div>
+			<div class="btn"> Send </div> 
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
